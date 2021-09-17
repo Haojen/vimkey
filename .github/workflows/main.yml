@@ -1,4 +1,4 @@
-name: Build Claudia blog
+name: Build Vimkey website
 on:
   push:
     branches: [ master ]
