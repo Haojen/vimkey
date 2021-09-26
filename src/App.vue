@@ -5,6 +5,7 @@
 
 #app {
     @apply h-screen;
+    @apply min-w-min;
 
     @apply flex;
     @apply flex-col;
@@ -13,10 +14,10 @@
 </style>
 
 <template>
-    <header class="container px-4 xl:px-20 2xl:px-40">
+    <header class="container md:px-4 xl:px-20 2xl:px-40">
         <TopBar/>
     </header>
-    <router-view class="container flex-1 px-4 xl:px-20 2xl:px-40" />
+    <router-view class="container flex-1 md:px-4 xl:px-20 2xl:px-40" />
     <footer class="flex flex-col justify-center items-center w-full bg-gray-900 text-white text-opacity-90" style="min-height: 100px;">
         <div class="mb-0.5">
             Copyright © <a href="https://github.com/haojen" target="_blank">Haojen</a> 2021
