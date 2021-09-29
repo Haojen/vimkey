@@ -25,6 +25,12 @@
 ### Q2 Sometimes problems with Q1 occur accidentally on the same page
 > It is recommended to turn off Safari's built-in preloading and try again.
 
+
+### Q3 Why Vimkey in the iPad safari not working ?
+> In you iPad safari use this extension, 
+> Please make sure you have a keyboard hardware, like Apple Magic Keyboard for iPadPro.
+
+
 ## Contact
 Project source: [Github](https://github.com/haojen/vimkey)
 

@@ -35,13 +35,13 @@ main {
                 A Safari browser extension, uses keyboard to control browser jumps, scrolling, switching tabs and more..
             </p>
             <p class="text-description pt-2">Supports macOS 11 above and iPadOS 15 above</p>
-            <section class="mt-14">
-                <button>
+            <section class="mt-14 flex">
+                <a href="itms-apps://itunes.apple.com/app/id1585682577">
                     <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
-                </button>
-                <button class="ml-6">
+                </a>
+                <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
                     <img src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
-                </button>
+                </a>
             </section>
         </article>
         <article class="features">
