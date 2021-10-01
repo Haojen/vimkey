@@ -5,7 +5,6 @@
 
 #app {
     @apply h-screen;
-    @apply min-w-min;
 
     @apply flex;
     @apply flex-col;
