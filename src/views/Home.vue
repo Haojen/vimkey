@@ -1,16 +1,18 @@
 <style lang="scss" scoped>
 main {
-    .banner {
-        background: url("../assets/guy-working-at-home-2127164-0.svg") no-repeat;
-        background-position: right bottom;
-    }
-
     .text-description {
         @apply pr-16;
         @apply text-lg;
 
         width: 600px;
         text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    }
+
+    @screen sm {
+        .banner {
+            background: url("../assets/guy-working-at-home-2127164-0.svg") no-repeat;
+            background-position: right bottom;
+        }
     }
 
     .features {
@@ -29,7 +31,8 @@ main {
 
 <template>
     <main class="flex flex-col">
-        <article class="banner flex flex-col justify-center py-24">
+        <article class="banner relative flex flex-col justify-center py-24">
+<!--            <img class="absolute" src="../assets/guy-working-at-home-2127164-0.svg" alt="Publicity illustrations">-->
             <h2 class="font-bold text-6xl mb-5">Vimkey</h2>
             <p class="text-description">
                 A Safari browser extension, uses keyboard to control browser jumps, scrolling, switching tabs and more..
