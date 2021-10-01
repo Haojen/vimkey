@@ -2,7 +2,7 @@
     <main class="hidden sm:flex justify-between items-center border-b">
         <router-link to="/" class="flex items-center">
             <img alt="Vue logo" src="../assets/logo.png" style="width: 50px">
-            <span>Vimkey</span>
+            <strong>Vimkey</strong>
         </router-link>
         <aside class="font-bold flex items-center">
             <router-link class="px-2" to="/support">SUPPORT</router-link>
