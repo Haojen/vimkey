@@ -33,15 +33,20 @@ main {
         <article class="pt-12 banner relative flex flex-col justify-center">
             <h2 class="font-bold text-6xl mb-5">Vimkey</h2>
             <p class="text-description text-xl text-gray-800">
-                A Safari browser extension, use keyboard control browser jump, scroll, switch tab and more..
+                A browser extension, use keyboard control browser jump, scroll, switch tab and more..
             </p>
-            <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support macOS and iPadOS 15+</p>
+            <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support browser: Chrome, Edge, Safari(macOS & iPadOS)</p>
             <section class="mt-10 flex">
                 <a href="itms-apps://itunes.apple.com/app/id1585682577">
                     <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
                 </a>
                 <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
                     <img src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
+                </a>
+            </section>
+            <section class="mt-10 flex">
+                <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+                    <img src="../assets/chrome-webstore.svg" class="border" alt="" style="width: 300px">
                 </a>
             </section>
         </article>
