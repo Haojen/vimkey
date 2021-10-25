@@ -32,8 +32,8 @@ main {
     <main class="flex flex-col">
         <article class="pt-12 banner relative flex flex-col justify-center">
             <h2 class="font-bold text-6xl mb-5">Vimkey</h2>
-            <p class="text-description text-xl text-gray-800">
-                A browser extension, use keyboard control browser jump, scroll, switch tab and more..
+            <p class="text-description text-xl text-gray-800 font-medium">
+                A browser extension, use keyboard control browser jump, scroll, switch tab and more.
             </p>
             <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support browser: Chrome, Edge, Safari(macOS & iPadOS)</p>
             <section class="mt-10 flex">
