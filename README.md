@@ -1,5 +1,18 @@
-# Support
-## Keyboard
+
+<p align="center">
+  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="74px">
+</p>
+<h1 align="center">
+  <strong>Vimkey</stong>
+</h1> 
+<p align="center">
+  Use keyboard control browser jumps, scrolling, switching tabs and more. support Safari, Chrome, Edge.
+</p>
+<p align="center">
+  <a href="https://haojen.github.io/vimkey">Website</a> | <a href="https://haojen.github.io/vimkey/#/support">Document</a> | <a href="https://haojen.github.io/vimkey/#/privacy">Privacy Policy</a>
+</p>
+      
+## Keymap
 
 | Key      | Description |
 | -----------|----------- |
