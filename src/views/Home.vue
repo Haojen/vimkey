@@ -46,7 +46,7 @@ main {
             </section>
             <section class="mt-10 flex">
                 <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-                    <img src="../assets/chrome-webstore.svg" class="border" alt="" style="width: 300px">
+                    <img src="../assets/chrome-webstore.svg" class="border bg-white" alt="" style="width: 300px">
                 </a>
             </section>
         </article>
