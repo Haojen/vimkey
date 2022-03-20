@@ -19,4 +19,4 @@ jobs:
           clean: false
           branch: gh-pages
           folder: dist/
-          target-folder: doc/
+          target-folder: /doc
