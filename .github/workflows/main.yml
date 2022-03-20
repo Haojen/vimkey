@@ -1,10 +1,10 @@
 name: Build Vimkey website
 on:
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
   pull_request:
     types: [ closed ]
-    branches: [ main ]
+    branches: [ gh-pages ]
 
 jobs:
   build-deploy:
@@ -16,6 +16,7 @@ jobs:
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          CLEAN: true
-          BRANCH: gh-pages
-          FOLDER: dist/
+          clean: false
+          branch: gh-pages
+          folder: dist/
+          target-folder: doc/
