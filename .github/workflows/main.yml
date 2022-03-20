@@ -16,7 +16,7 @@ jobs:
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          clean: false
-          branch: gh-pages
-          folder: dist/
-          target-folder: docs/
+          CLEAN: false
+          BRANCH: gh-pages
+          FOLDER: dist/
+          TARGET_FOLDER: docs/
