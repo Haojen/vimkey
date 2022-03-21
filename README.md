@@ -2,8 +2,8 @@
 <p align="center">
   <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="74px">
 </p>
-<h1 align="center">
-  <strong>Vimkey</stong>
+<h1 align="center"> 
+  <strong>Vimkey</strong>
 </h1> 
 <p align="center">
   Use keyboard control browser jumps, scrolling, switching tabs and more. support Safari, Chrome, Edge.
