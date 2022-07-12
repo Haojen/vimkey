@@ -23,23 +23,23 @@
 
 ## Keymap
 
-| Key   | Description            | update       |
-|-------|------------------------|--------------|
-| gi    | focus input            | v2.2.1 added |
-| esc | blur from focus input | v2.2.1 added |
-| k     | Scroll up              |
-| j     | Scroll down            |
-| u     | Fast scroll up         |
-| d     | Fast scroll down       |
-| h     | Scroll left            |
-| l     | Scroll right           |
-| f     | Highlight              |
-| shift | Open link in a new tab |
-| r     | Refresh page           |
-| J     | Switch to pre tab      |
-| K     | Switch to next tab     |
-| x     | Close current page     |
-| ?     | Key help               |
+| Key   | Description             | update       |
+|-------|-------------------------|--------------|
+| gi    | focus input             | v2.2.1 added |
+| esc   | blur from focus input   | v2.2.1 added |
+| k     | Scroll up               |
+| j     | Scroll down             |
+| u     | Fast scroll up          |
+| d     | Fast scroll down        |
+| h     | Scroll left             |
+| l     | Scroll right            |
+| f     | Highlight               |
+| shift | Open link in a new tab  |
+| r     | Refresh page            |
+| J     | Switch to pre tab       |
+| K     | Switch to next tab      |
+| x     | Close current page      |
+| ?     | Key help                |
 
 ## FAQ
 ### Q1 Why do functions such as scrolling with the 'j' key or using the 'f' key not perform as expected?
