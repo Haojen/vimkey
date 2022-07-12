@@ -19,7 +19,7 @@
     <router-view class="px-2 container flex-1 md:px-4 xl:px-20 2xl:px-40" />
     <footer class="flex flex-col justify-center items-center w-full bg-gray-900 text-white text-opacity-90" style="min-height: 100px;">
         <div class="mb-0.5">
-            Copyright © <a href="https://github.com/haojen" target="_blank">Haojen</a> 2021
+            Copyright © <a href="https://github.com/haojen" target="_blank">Haojen</a> 2022
         </div>
         <div class="px-6 text-sm text-center">
             <a href="https://iconscout.com/illustrations/guy" target="_blank">Guy working at home Illustration </a>

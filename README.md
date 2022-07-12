@@ -11,24 +11,35 @@
 <p align="center">
   <a href="https://haojen.github.io/vimkey">Website</a> | <a href="https://haojen.github.io/vimkey/#/support">Document</a> | <a href="https://haojen.github.io/vimkey/#/privacy">Privacy Policy</a>
 </p>
-      
+
+<p align="center">
+    <img src="src/assets/chrome-webstore.svg" width="210">
+</p>
+
+<p align="center">
+    <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
+    <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
+</p>
+
 ## Keymap
 
-| Key      | Description |
-| -----------|----------- |
-|k | Scroll up|
-|j | Scroll down|
-|u | Fast scroll up |
-|d | Fast scroll down |
-|h | Scroll left |
-|l | Scroll right |
-|f | Highlight |
-|shift | Open link in a new tab |
-|r |  Refresh page |
-|J |  Switch to pre tab |
-|K | Switch to next tab |
-|x |  Close current page |
-|? | Key help |
+| Key   | Description            | update       |
+|-------|------------------------|--------------|
+| gi    | focus input            | v2.2.1 added |
+| esc | blur from focus input | v2.2.1 added |
+| k     | Scroll up              |
+| j     | Scroll down            |
+| u     | Fast scroll up         |
+| d     | Fast scroll down       |
+| h     | Scroll left            |
+| l     | Scroll right           |
+| f     | Highlight              |
+| shift | Open link in a new tab |
+| r     | Refresh page           |
+| J     | Switch to pre tab      |
+| K     | Switch to next tab     |
+| x     | Close current page     |
+| ?     | Key help               |
 
 ## FAQ
 ### Q1 Why do functions such as scrolling with the 'j' key or using the 'f' key not perform as expected?
