@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-<a href="itms-apps://itunes.apple.com/app/id1585682577">
+<a href="https://itunes.apple.com/app/id1585682577">
     <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
 </a>
-<a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
+<a href="https://itunes.apple.com/app/id1585682577" class="ml-6">
     <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
 </a>
 </p>
