@@ -31,8 +31,8 @@
 
 | Key   | Description             | update       |
 |-------|-------------------------|--------------|
-| gi    | focus input             | v2.2.1 added |
-| esc   | blur from focus input   | v2.2.1 added |
+| gi    | focus input             | v2.2.0 added |
+| esc   | blur from focus input   | v2.2.0 added |
 | k     | Scroll up               |
 | j     | Scroll down             |
 | u     | Fast scroll up          |
