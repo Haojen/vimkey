@@ -31,6 +31,9 @@
 
 | Key   | Description             | update       |
 |-------|-------------------------|--------------|
+| yy    | Copy The Current URL  | v2.3.0 added |
+| p    | Open The Clipboard's URL In The Current Tab | v2.3.0 added |
+| P    | Open The Clipboard's URL In a New Tab  | v2.3.0 added |
 | gi    | focus input             | v2.2.0 added |
 | esc   | blur from focus input   | v2.2.0 added |
 | k     | Scroll up               |
@@ -40,7 +43,6 @@
 | h     | Scroll left             |
 | l     | Scroll right            |
 | f     | Highlight               |
-| shift | Open link in a new tab  |
 | r     | Refresh page            |
 | J     | Switch to pre tab       |
 | K     | Switch to next tab      |
