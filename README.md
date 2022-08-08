@@ -29,8 +29,16 @@
 
 ## Keymap
 
+
 | Key   | Description             | update       |
 |-------|-------------------------|--------------|
+| m | mute/unmute media | v2.4.0 added |
+| T | search and switch open tabs | v2.4.0 added |
+| o | to open a link | v2.4.0 added |
+| yt | Copy current tab | v2.4.0 added |
+| gf | select iframe | v2.4.0 added |
+| i | temporary disable | v2.4.0 added |
+| [-, =]| media volume adjustment | v2.4.0 added |
 | yy    | Copy The Current URL  | v2.3.0 added |
 | p    | Open The Clipboard's URL In The Current Tab | v2.3.0 added |
 | P    | Open The Clipboard's URL In a New Tab  | v2.3.0 added |
