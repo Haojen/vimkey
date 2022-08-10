@@ -71,12 +71,7 @@
 > Please make sure you have a keyboard hardware, like Apple Magic Keyboard for iPadPro.
 
 
-## Contact
-Project source: [Github](https://github.com/haojen/vimkey)
-
-Feedback and support: <a href="mailto:ehazomm@gmail.com">ehazomm@gmail.com</a>
-
 ## About
-Copyright © Haojen 2021
+Copyright © Haojen 2022
 
 Guy working at home Illustration byIconscout Store
