@@ -37,7 +37,8 @@
 </picture>
 
 <div>
-    <source media="(max-width: 480px)" srcset="src/assets/logo.png" width="0">
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
         <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
     </picture>
     <h3>跨平台、支持多个浏览器</h3>
