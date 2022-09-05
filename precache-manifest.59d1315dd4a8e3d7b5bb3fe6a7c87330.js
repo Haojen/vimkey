@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3578456412d376b6fd84",
+    "revision": "9deca629ebd1e3f9f818",
     "url": "/vimkey/css/app.4dbf254f.css"
   },
   {
@@ -28,11 +28,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/img/guy-working-at-home-2127164-0.00a2298b.svg"
   },
   {
-    "revision": "7b8299fe08ad75c35fbf3ed9f6bf5e91",
-    "url": "/vimkey/img/logo.7b8299fe.png"
+    "revision": "227d957ca7212cedea6c678272878b63",
+    "url": "/vimkey/img/logo.227d957c.png"
   },
   {
-    "revision": "b291e3cb4f55f4f80b02733d7150eb36",
+    "revision": "c4468f3a127501835cd03d651ed5a0dc",
     "url": "/vimkey/index.html"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/js/about.2ee898d9.js"
   },
   {
-    "revision": "3578456412d376b6fd84",
-    "url": "/vimkey/js/app.09e65293.js"
+    "revision": "9deca629ebd1e3f9f818",
+    "url": "/vimkey/js/app.645faf65.js"
   },
   {
     "revision": "261456415de3c2987868",
