@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vimkey/precache-manifest.59d1315dd4a8e3d7b5bb3fe6a7c87330.js"
+  "/vimkey/precache-manifest.07d0c89075b4a9dce576238d53e864ca.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vimkey"});
