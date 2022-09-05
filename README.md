@@ -43,7 +43,7 @@
     <h3>Powerful Feature & Optimized for Mobile Device</h3>
     <ul>
         <li>Custom key binding.</li>
-        <li>Customize filter rules base on page or domain to disable Vimkey.</li>
+        <li>Customize filter rules to disable Vimkey.</li>
         <li>Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</li>
         <li>Support config export & import，cross-platform compatibility.</li>
         <li>Accessibility friendly.</li>
@@ -58,11 +58,11 @@
         <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
     </picture>
     <h3>Beautiful UI, Easy to Use</h3>
-    <span>Simple and intuitive user interface.</span>
-    <br>
-    <span>Friendly new guide and help to help you get started with Vimkey quickly.</span>
-    <br>
-    <span>Smooth and natural transition animation.</span>
+    <ul>
+        <li>Simple and intuitive user interface.</li>
+        <li>Friendly new guide and help to help you get started with Vimkey quickly.</li>
+        <li>Smooth and natural transition animation.</li>
+    </ul>
     <br clear="both"/>
 </div>
 
@@ -75,9 +75,9 @@
     <p align="left">
         <span>Support Safari Chrome Edge. Safari (macOS / iPadOS / iOS) </span>
         <br>
-        <i>macOS system requirement: macOS 11+ </i>
-        <br>
         <i>iOS & iPadOS 15+ </i>
+        <br>
+        <i>macOS system requirement: macOS 11+ </i>
     </p>
     <br clear="both"/>
 </div>
