@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="170">
+    <img src="src/assets/logo.png" width="170">
 </p>
 <h2 align="center">
   <strong>Vimkey</strong>
@@ -28,7 +28,7 @@
     <a href="https://itunes.apple.com/app/id1585682577">
         <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
     </a>
-    <a href="https://itunes.apple.com/app/id1585682577" class="ml-6">
+    <a href="https://itunes.apple.com/app/id1585682577">
         <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
     </a>
 </p>
@@ -40,16 +40,14 @@
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
         <img align="right" src="src/assets/vimkey-f.png" width="320">
     </picture>
-    <h3>Powerful feature and optimized for mobile device</h3>
-    <span>Custom key binding.</span>
-    <br>
-    <span>Customize filter rules base on page or domain to disable Vimkey.</span>
-    <br>
-    <span>Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</span>
-    <br>
-    <span>Support config export & import，cross-platform compatibility.</span>
-    <br>
-    <span>Accessibility friendly.</span>
+    <h3>Powerful Feature & Optimized for Mobile Device</h3>
+    <ul>
+        <li>Custom key binding.</li>
+        <li>Customize filter rules base on page or domain to disable Vimkey.</li>
+        <li>Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</li>
+        <li>Support config export & import，cross-platform compatibility.</li>
+        <li>Accessibility friendly.</li>
+    </ul>
     <br clear="both"/>
 </div>
 
@@ -59,7 +57,7 @@
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
         <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
     </picture>
-    <h3>Beautiful interface, easy to use.</h3>
+    <h3>Beautiful UI, Easy to Use</h3>
     <span>Simple and intuitive user interface.</span>
     <br>
     <span>Friendly new guide and help to help you get started with Vimkey quickly.</span>
@@ -147,9 +145,24 @@ Escape Cancel or blur from input
 ```
 
 
+## Need Help
+
+Please visit Vimkey support website：https://haojen.github.io/vimkey/#/support
+
+## Privacy Policy
+
+When enabling Vimkey, you will be warned that the extension will have access to sensitive information. This access is required for the extension to be able to interact with the website. Vimkey never collects, stores, or transmits any information. It runs entirely locally on your device
+
+in Safari, You can choose to allow just for one day or always and you can also choose to allow just on specific websites or on every website. You can revoke access at any time using Manage Extensions
+
 ## Thanks
 
 Vimium and Vimari provided me with a lot of inspiration and reference
 
 ## About
+
+As an indie developer, this is my only source of income, which is why your support means so much to me, and it's a great encourage.
+
+Star, share, comment, feedback, buy me coffee, etc.
+
 Copyright © Haojen 2022
