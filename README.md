@@ -27,51 +27,79 @@
 </a>
 </p>
 
-## Keymap
+<hr>  
+
+<p align="center">
+<img src="src/assets/features-smoothscroll.png" width="266">
+<img src="src/assets/features-accessibility.png" width="266">
+<img src="src/assets/features-privacy-policy.png" width="266">
+</p>
+
+### Keyboard Bindings
+
+#### Navigation
+
+```
+J   Switch to pre tab      
+K   Switch to next tab
+H   Go back in history
+L   Go forward in history 
+```
+
+#### Scroll
+
+```
+k   Scroll up                                   
+j   Scroll down                                 
+u   Fast scroll up                             
+d   Fast scroll down                           
+h   Scroll left                                 
+l   Scroll right                                
+```
+
+#### Open & Search
+```markdown
+f   To highlight current page all button or links
+o   Open A Url From The Tab Or A New Tab (With Shift)
+T   Search Tabs
+t   Open A New Tab
+P   Open The Clipboard's URL In A New Tab
+p   Open The Clipboard's URL In The Current Tab
+```
+
+#### Tab Control
+
+```markdown
+i   TemporarilyDisableModeDescription
+gf  Select The Next Frame On Page
+yt  Duplicate Current Tab
+r   Refresh Page
+X   Restore Page
+x   Close Current Page
+gi  Focus On First Input Field
+yy  Copy The Current URL
+```
+
+#### Media Control
+
+```markdown
+-   Reduce Sound Volume
+=   Increase Sound Volume
+m   Mute/Unmute
+```
 
 
-| Key   | Description             | update       |
-|-------|-------------------------|--------------|
-| m | mute/unmute media | v2.4.0 added |
-| T | search and switch open tabs | v2.4.0 added |
-| o | to open a link | v2.4.0 added |
-| yt | Copy current tab | v2.4.0 added |
-| gf | select iframe | v2.4.0 added |
-| i | temporary disable | v2.4.0 added |
-| [-, =]| media volume adjustment | v2.4.0 added |
-| yy    | Copy The Current URL  | v2.3.0 added |
-| p    | Open The Clipboard's URL In The Current Tab | v2.3.0 added |
-| P    | Open The Clipboard's URL In a New Tab  | v2.3.0 added |
-| gi    | focus input             | v2.2.0 added |
-| esc   | blur from focus input   | v2.2.0 added |
-| k     | Scroll up               |
-| j     | Scroll down             |
-| u     | Fast scroll up          |
-| d     | Fast scroll down        |
-| h     | Scroll left             |
-| l     | Scroll right            |
-| f     | Highlight               |
-| r     | Refresh page            |
-| J     | Switch to pre tab       |
-| K     | Switch to next tab      |
-| x     | Close current page      |
-| ?     | Key help                |
+### Other
 
-## FAQ
-### Q1 Why do functions such as scrolling with the 'j' key or using the 'f' key not perform as expected?
-> Due to security restrictions of Safari, if the page has a customized keypress behavior, the keypress behavior of Vimkey will be overwritten.
-> The current temporary solution is to exclude the page from the Vimkey execution scope, which can be set in the Vimkey Settings
-
-### Q2 Sometimes problems with Q1 occur accidentally on the same page
-> It is recommended to turn off Safari's built-in preloading and try again.
+```markdown
+?   Get Help
+Escape Cancel or blur from input
+```
 
 
-### Q3 Why Vimkey in the iPad safari not working ?
-> In you iPad safari use this extension, 
-> Please make sure you have a keyboard hardware, like Apple Magic Keyboard for iPadPro.
+### Thanks
 
+Vimium and Vimari provided me with a lot of inspiration and reference
 
-## About
+### About
 Copyright © Haojen 2022
-
-Guy working at home Illustration byIconscout Store
