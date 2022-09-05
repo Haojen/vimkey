@@ -1,6 +1,6 @@
 
 <p align="center">
-   <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="120px"> 
+   <img src="src/assets/logo.png" width="170px"> 
 </p>
 <h2 align="center">
   <strong>Vimkey</strong>
@@ -11,10 +11,6 @@
 
 <p align="center">
   <a href="/README-zh.md">English</a> ｜ <span>简体中文</span>
-</p>
-
-<p align="center">
-  <a href="https://haojen.github.io/vimkey">官网</a>
 </p>
 
 <hr>  
@@ -38,7 +34,7 @@
 ## 功能简介
 
 <div>
-    <img align="right" src="src/assets/features-smoothscroll.png" width="300">
+    <img align="right" src="src/assets/vimkey-readme.jpg" width="300">
     <h3>跨平台、支持多个浏览器</h3>
     <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
     <br>
