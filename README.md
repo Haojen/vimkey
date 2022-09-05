@@ -1,9 +1,8 @@
 
 <p align="center">
-  
+  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="128">
 </p>
 <h2 align="center">
-  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="74px">
   <strong>Vimkey</strong>
 </h2> 
 <p align="center">

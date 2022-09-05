@@ -12,9 +12,7 @@
 <p align="center">
   <a href="/README-zh.md">English</a> ｜ <span>简体中文</span>
 </p>
-
-<hr>  
-
+<h2> &nbsp </h2>
 <div align="center">
 <a href="https://itunes.apple.com/app/id1585682577">
     <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
@@ -33,19 +31,28 @@
 
 ## 功能简介
 
+<picture>
+ <source srcset="src/assets/features-accessibility.png">
+ <source srcset="src/assets/vimkey-readme.jpg">
+</picture>
+
 <div>
-    <img align="right" src="src/assets/vimkey-readme.jpg" width="300">
+    <source media="(max-width: 480px)" srcset="src/assets/logo.png" width="0">
+        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
+    </picture>
     <h3>跨平台、支持多个浏览器</h3>
-    <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
-    <br>
-    <i style="color: gray">macOS 系统版本要求: macOS 11+ </i>
-    <br>
-    <i style="color: gray">iOS & iPadOS(15.0 +)</i>
+    <p align="left">
+        <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
+        <br>
+        <i style="color: gray">macOS 系统版本要求: macOS 11+ </i>
+        <br>
+        <i style="color: gray">iOS & iPadOS(15.0 +)</i>
+    </p>
     <br clear="both"/>
 </div>
 
 <div>
-    <img align="right" src="src/assets/features-accessibility.png" width="300">
+    <img align="right" src="src/assets/vimkey-f.png" width="320">
     <h3>功能丰富，专为 iPad 等移动设备优化</h3>
     <span>自定义按键绑定，按需定义。</span>
     <br>
@@ -60,7 +67,7 @@
 </div>
 
 <div>
-    <img align="right" src="src/assets/features-privacy-policy.png" width="300">
+    <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
     <h3>界面美观，使用简单。</h3>
     <span>简洁直观的用户界面。</span>
     <br>
