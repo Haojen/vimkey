@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-   <img src="src/assets/logo.png" width="170px">
+   <img src="src/assets/logo.png" width="170">
 </div>
 <h2 align="center">
   Vimkey
@@ -12,6 +12,12 @@
 <p align="center">
   <a href="/README-zh.md">English</a> ｜ <span>简体中文</span>
 </p>
+<br>
+<div align="center">
+<a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+    <img src="src/assets/chrome-webstore.svg" width="210">
+</a>
+</div>
 
 <div align="center">
 <a href="https://itunes.apple.com/app/id1585682577">
@@ -22,35 +28,8 @@
 </a>
 </div>
 
-<div align="center">
-<a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-    <img src="src/assets/chrome-webstore.svg" width="210">
-</a>
-</div>
-
 
 ## 功能简介
-
-<picture>
- <source srcset="src/assets/features-accessibility.png">
- <source srcset="src/assets/vimkey-readme.jpg">
-</picture>
-
-<div>
-    <picture>
-        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
-    </picture>
-    <h3>跨平台、支持多个浏览器</h3>
-    <p align="left">
-        <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
-        <br>
-        <i style="color: gray">macOS 系统版本要求: macOS 11+ </i>
-        <br>
-        <i style="color: gray">iOS & iPadOS(15.0 +)</i>
-    </p>
-    <br clear="both"/>
-</div>
 
 <div>
     <picture>
@@ -84,6 +63,21 @@
     <br clear="both"/>
 </div>
 
+<div>
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
+    </picture>
+    <h3>跨平台、支持多个浏览器</h3>
+    <p align="left">
+        <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
+        <br>
+        <i>macOS 系统版本要求: macOS 11+ </i>
+        <br>
+        <i>iOS & iPadOS(15.0 +)</i>
+    </p>
+    <br clear="both"/>
+</div>
 
 ## 按键功能
 

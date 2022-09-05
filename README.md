@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="128">
+  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="170">
 </p>
 <h2 align="center">
   <strong>Vimkey</strong>
@@ -16,57 +16,71 @@
   <span>English</span> | <a href="/README-zh.md">简体中文</a>
 </p>
 
+<br>
+
 <p align="center">
-<a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-    <img src="src/assets/chrome-webstore.svg" width="210">
-</a>
+    <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+        <img src="src/assets/chrome-webstore.svg" width="210">
+    </a>
 </p>
 
 <p align="center">
-<a href="https://itunes.apple.com/app/id1585682577">
-    <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
-</a>
-<a href="https://itunes.apple.com/app/id1585682577" class="ml-6">
-    <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
-</a>
+    <a href="https://itunes.apple.com/app/id1585682577">
+        <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
+    </a>
+    <a href="https://itunes.apple.com/app/id1585682577" class="ml-6">
+        <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
+    </a>
 </p>
 
-## 功能简介
+## Features
 
 <div>
-    <img align="right" src="src/assets/features-smoothscroll.png" width="300">
-    <h3>跨平台、支持多个浏览器</h3>
-    <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-f.png" width="320">
+    </picture>
+    <h3>Powerful feature and optimized for mobile device</h3>
+    <span>Custom key binding.</span>
     <br>
-    <i style="color: gray">macOS 系统版本要求: macOS 11+ </i>
+    <span>Customize filter rules base on page or domain to disable Vimkey.</span>
     <br>
-    <i style="color: gray">iOS & iPadOS(15.0 +)</i>
+    <span>Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</span>
+    <br>
+    <span>Support config export & import，cross-platform compatibility.</span>
+    <br>
+    <span>Accessibility friendly.</span>
+    <br clear="both"/>
+</div>
+
+
+<div>
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
+    </picture>
+    <h3>Beautiful interface, easy to use.</h3>
+    <span>Simple and intuitive user interface.</span>
+    <br>
+    <span>Friendly new guide and help to help you get started with Vimkey quickly.</span>
+    <br>
+    <span>Smooth and natural transition animation.</span>
     <br clear="both"/>
 </div>
 
 <div>
-    <img align="right" src="src/assets/features-accessibility.png" width="300">
-    <h3>功能丰富，专为 iPad 等移动设备优化</h3>
-    <span>自定义按键绑定，按自身习惯定义按键功能。</span>
-    <br>
-    <span>自定过滤规则，根据需要对页面或者域名进行过滤禁用。</span>
-    <br>
-    <span>专门为 120Mhz / ProMotion 高刷屏优化的平滑滚动。</span>
-    <br>
-    <span>支持导入导出，多平台配置兼容。</span>
-    <br>
-    <span>无障碍友好</span>
-    <br clear="both"/>
-</div>
-
-<div>
-    <img align="right" src="src/assets/features-privacy-policy.png" width="300">
-    <h3>界面美观，使用简洁直观</h3>
-    <span>简洁的设置界面，直观轻松的配置过滤规则和自定义按键绑定等，无需再用繁琐的代码和表达式也可以轻松做到。</span>
-    <br>
-    <span>友好的新人引导和帮助，帮你快速上手 Vimkey</span>
-    <br>
-    <span>流畅自然的过渡动画</span>
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
+    </picture>
+    <h3>Cross-platform, multi-browser support</h3>
+    <p align="left">
+        <span>Support Safari Chrome Edge. Safari (macOS / iPadOS / iOS) </span>
+        <br>
+        <i>macOS system requirement: macOS 11+ </i>
+        <br>
+        <i>iOS & iPadOS 15+ </i>
+    </p>
     <br clear="both"/>
 </div>
 
