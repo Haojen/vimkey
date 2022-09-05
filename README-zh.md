@@ -1,9 +1,9 @@
-
-<p align="center">
-   <img src="src/assets/logo.png" width="170px"> 
-</p>
+<br>
+<div align="center">
+   <img src="src/assets/logo.png" width="170px">
+</div>
 <h2 align="center">
-  <strong>Vimkey</strong>
+  Vimkey
 </h2> 
 <p align="center">
     用键盘操控浏览器，导航、滚动、切换标签、搜索等。
@@ -12,7 +12,7 @@
 <p align="center">
   <a href="/README-zh.md">English</a> ｜ <span>简体中文</span>
 </p>
-<h2> &nbsp </h2>
+
 <div align="center">
 <a href="https://itunes.apple.com/app/id1585682577">
     <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
@@ -53,7 +53,10 @@
 </div>
 
 <div>
-    <img align="right" src="src/assets/vimkey-f.png" width="320">
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-f.png" width="320">
+    </picture>
     <h3>功能丰富，专为 iPad 等移动设备优化</h3>
     <span>自定义按键绑定，按需定义。</span>
     <br>
@@ -68,7 +71,10 @@
 </div>
 
 <div>
-    <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
+    <picture>
+        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
+        <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
+    </picture>
     <h3>界面美观，使用简单。</h3>
     <span>简洁直观的用户界面。</span>
     <br>
