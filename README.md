@@ -1,15 +1,20 @@
 
 <p align="center">
-  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="74px">
+  
 </p>
-<h1 align="center"> 
+<h2 align="center">
+  <img src="https://github.com/Haojen/vimkey/blob/main/src/assets/logo.png" width="74px">
   <strong>Vimkey</strong>
-</h1> 
+</h2> 
 <p align="center">
   Use keyboard control browser jumps, scrolling, switching tabs and more. support Safari, Chrome, Edge.
 </p>
 <p align="center">
   <a href="https://haojen.github.io/vimkey">Website</a> | <a href="https://haojen.github.io/vimkey/#/support">Document</a> | <a href="https://haojen.github.io/vimkey/#/privacy">Privacy Policy</a>
+</p>
+
+<p align="center">
+  <span>English</span> | <a href="/README-zh.md">简体中文</a>
 </p>
 
 <p align="center">
@@ -27,17 +32,49 @@
 </a>
 </p>
 
-<hr>  
+## 功能简介
 
-<p align="center">
-<img src="src/assets/features-smoothscroll.png" width="266">
-<img src="src/assets/features-accessibility.png" width="266">
-<img src="src/assets/features-privacy-policy.png" width="266">
-</p>
+<div>
+    <img align="right" src="src/assets/features-smoothscroll.png" width="300">
+    <h3>跨平台、支持多个浏览器</h3>
+    <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
+    <br>
+    <i style="color: gray">macOS 系统版本要求: macOS 11+ </i>
+    <br>
+    <i style="color: gray">iOS & iPadOS(15.0 +)</i>
+    <br clear="both"/>
+</div>
 
-### Keyboard Bindings
+<div>
+    <img align="right" src="src/assets/features-accessibility.png" width="300">
+    <h3>功能丰富，专为 iPad 等移动设备优化</h3>
+    <span>自定义按键绑定，按自身习惯定义按键功能。</span>
+    <br>
+    <span>自定过滤规则，根据需要对页面或者域名进行过滤禁用。</span>
+    <br>
+    <span>专门为 120Mhz / ProMotion 高刷屏优化的平滑滚动。</span>
+    <br>
+    <span>支持导入导出，多平台配置兼容。</span>
+    <br>
+    <span>无障碍友好</span>
+    <br clear="both"/>
+</div>
 
-#### Navigation
+<div>
+    <img align="right" src="src/assets/features-privacy-policy.png" width="300">
+    <h3>界面美观，使用简洁直观</h3>
+    <span>简洁的设置界面，直观轻松的配置过滤规则和自定义按键绑定等，无需再用繁琐的代码和表达式也可以轻松做到。</span>
+    <br>
+    <span>友好的新人引导和帮助，帮你快速上手 Vimkey</span>
+    <br>
+    <span>流畅自然的过渡动画</span>
+    <br clear="both"/>
+</div>
+
+
+## Keyboard Bindings
+
+**Navigation**
 
 ```
 J   Switch to pre tab      
@@ -89,7 +126,7 @@ m   Mute/Unmute
 ```
 
 
-### Other
+## Other
 
 ```markdown
 ?   Get Help
@@ -97,9 +134,9 @@ Escape Cancel or blur from input
 ```
 
 
-### Thanks
+## Thanks
 
 Vimium and Vimari provided me with a lot of inspiration and reference
 
-### About
+## About
 Copyright © Haojen 2022
