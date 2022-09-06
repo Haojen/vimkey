@@ -8,9 +8,6 @@
 <p align="center">
   Use keyboard control browser jumps, scrolling, switching tabs and more. support Safari, Chrome, Edge.
 </p>
-<p align="center">
-  <a href="https://haojen.github.io/vimkey">Website</a> | <a href="https://haojen.github.io/vimkey/#/support">Document</a> | <a href="https://haojen.github.io/vimkey/#/privacy">Privacy Policy</a>
-</p>
 
 <p align="center">
   <span>English</span> | <a href="/README-zh.md">简体中文</a>
