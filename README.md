@@ -75,9 +75,10 @@
     <p align="left">
         <span>Support Safari Chrome Edge. Safari (macOS / iPadOS / iOS) </span>
         <br>
-        <i>iOS & iPadOS 15+ </i>
         <br>
-        <i>macOS system requirement: macOS 11+ </i>
+        <i>iOS & iPadOS system requirement: 15.0 or above </i>
+        <br>
+        <i>macOS system requirement: macOS 11.0 or above </i>
     </p>
     <br clear="both"/>
 </div>
