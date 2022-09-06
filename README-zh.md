@@ -37,15 +37,13 @@
         <img align="right" src="src/assets/vimkey-f.png" width="320">
     </picture>
     <h3>功能丰富，专为 iPad 等移动设备优化</h3>
-    <span>自定义按键绑定，按需定义。</span>
-    <br>
-    <span>自定过滤规则，根据需要对页面或域名过滤禁用。</span>
-    <br>
-    <span>为 120Mhz / ProMotion 高刷屏优化的平滑滚动。</span>
-    <br>
-    <span>支持导入导出，多平台配置兼容。</span>
-    <br>
-    <span>无障碍友好</span>
+    <ul>
+        <li>自定义按键绑定，按需定义。</li>
+        <li>自定过滤规则，根据需要对页面或域名过滤禁用。</li>
+        <li>为 120Mhz / ProMotion 高刷屏优化的平滑滚动。</li>
+        <li>支持导入导出，多平台配置兼容。</li>
+        <li>无障碍友好</li>
+    </ul>
     <br clear="both"/>
 </div>
 
@@ -55,11 +53,11 @@
         <img align="right" src="src/assets/vimkey-setting.png" width="320">
     </picture>
     <h3>界面美观，使用简单。</h3>
-    <span>简洁直观的用户界面。</span>
-    <br>
-    <span>友好的新人引导和帮助，帮你快速上手 Vimkey</span>
-    <br>
-    <span>流畅自然的过渡动画</span>
+    <ul>
+        <li>简洁直观的用户界面。</li>
+        <li>友好的新人引导和帮助，帮你快速上手 Vimkey</li>
+        <li>流畅自然的过渡动画</li>
+    </ul>
     <br clear="both"/>
 </div>
 
@@ -72,9 +70,10 @@
     <p align="left">
         <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
         <br>
-        <i>macOS 系统版本要求: macOS 11+ </i>
         <br>
-        <i>iOS & iPadOS(15.0 +)</i>
+        <i>iOS & iPadOS 系统版本要求 15.0 或更高</i>
+        <br>
+        <i>macOS 系统版本要求: macOS 11.0 或更高</i>
     </p>
     <br clear="both"/>
 </div>
