@@ -55,7 +55,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
+        <img align="right" src="src/assets/vimkey-setting.png" width="320">
     </picture>
     <h3>Beautiful UI, Easy to Use</h3>
     <span>Simple and intuitive user interface.</span>
@@ -69,7 +69,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
+        <img align="right" src="src/assets/vimkey-browser.png" width="320">
     </picture>
     <h3>Cross-platform, multi-browser support</h3>
     <p align="left">

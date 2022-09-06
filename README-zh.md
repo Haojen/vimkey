@@ -52,7 +52,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-setting.jpg" width="320">
+        <img align="right" src="src/assets/vimkey-setting.png" width="320">
     </picture>
     <h3>界面美观，使用简单。</h3>
     <span>简洁直观的用户界面。</span>
@@ -66,7 +66,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-browser.jpg" width="320">
+        <img align="right" src="src/assets/vimkey-browser.png" width="320">
     </picture>
     <h3>跨平台、支持多个浏览器</h3>
     <p align="left">
