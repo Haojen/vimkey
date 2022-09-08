@@ -5,4 +5,10 @@ declare module '*.vue' {
   export default component
 }
 
+interface WebGLTexture {
+  _webglTexture: WebGLTexture
+}
+
 declare module '*.md'
+declare module '*.frag'
+declare module '*.vert'

@@ -6,12 +6,10 @@ main {
     }
 
     @screen sm {
-        .banner {
-            background: url("../assets/guy-working-at-home-2127164-0.svg") no-repeat;
-            background-position: right bottom;
-
-            @apply py-24;
-        }
+        //.banner {
+        //
+        //    @apply py-24;
+        //}
     }
 
     .features {
@@ -30,25 +28,26 @@ main {
 
 <template>
     <main class="flex flex-col">
-        <article class="pt-12 banner relative flex flex-col justify-center">
-            <h2 class="font-bold text-6xl mb-5">Vimkey</h2>
-            <p class="text-description text-xl text-gray-800 font-medium">
-                A browser extension, use keyboard control browser jump, scroll, switch tab and more.
-            </p>
-            <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support browser: Chrome, Edge, Safari(macOS & iPadOS)</p>
-            <section class="mt-10 flex">
-                <a href="itms-apps://itunes.apple.com/app/id1585682577">
-                    <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
-                </a>
-                <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
-                    <img src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">
-                </a>
-            </section>
-            <section class="mt-10 flex">
-                <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-                    <img src="../assets/chrome-webstore.svg" class="border bg-white" alt="" style="width: 300px">
-                </a>
-            </section>
+        <article class="banner relative flex flex-col justify-center">
+            <canvas ref="canvasEl"  style="width: 640px; height: 480px;"></canvas>
+<!--            <h2 class="font-bold text-6xl mb-5">Vimkey</h2>-->
+<!--            <p class="text-description text-xl text-gray-800 font-medium">-->
+<!--                A browser extension, use keyboard control browser jump, scroll, switch tab and more.-->
+<!--            </p>-->
+<!--            <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support browser: Chrome, Edge, Safari(macOS & iPadOS)</p>-->
+<!--            <section class="mt-10 flex">-->
+<!--                <a href="itms-apps://itunes.apple.com/app/id1585682577">-->
+<!--                    <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">-->
+<!--                </a>-->
+<!--                <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">-->
+<!--                    <img src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">-->
+<!--                </a>-->
+<!--            </section>-->
+<!--            <section class="mt-10 flex">-->
+<!--                <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">-->
+<!--                    <img src="../assets/chrome-webstore.svg" class="border bg-white" alt="" style="width: 300px">-->
+<!--                </a>-->
+<!--            </section>-->
         </article>
         <article class="features">
             <h3 class="font-bold text-xl pb-2">Features</h3>
@@ -85,13 +84,39 @@ main {
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-// import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
+import fragmentShaderSource from './shader.frag'
+import vertexShaderSource from './shader.vert'
+
+import ShadertoyTransform from '../shadertoy-transform'
 
 export default defineComponent({
     name: 'Home',
-    components: {
-        // TopBar
+    setup() {
+        const canvasEl = ref<HTMLCanvasElement>()
+
+        let shadertoyInstance: ShadertoyTransform
+
+        onMounted(() => {
+            shadertoyInstance = new ShadertoyTransform({
+                canvas: canvasEl.value!,
+                contextAttributes: {},
+                devicePixelRatio: 1,
+                precision: 'mediump',
+                fs: fragmentShaderSource,
+                vs: vertexShaderSource
+            })
+
+            shadertoyInstance.componentDidMount()
+        })
+
+        onUnmounted(() => {
+            shadertoyInstance.componentWillUnmount()
+        })
+
+        return {
+            canvasEl
+        }
     }
 })
 </script>

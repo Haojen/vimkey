@@ -8,5 +8,15 @@ module.exports = {
             .use('raw-loader')
             .loader('raw-loader')
             .end()
+        config.module.rule('fragment')
+            .test(/\.frag$/)
+            .use('raw-loader')
+            .loader('raw-loader')
+            .end()
+        config.module.rule('vertex')
+            .test(/\.vert$/)
+            .use('raw-loader')
+            .loader('raw-loader')
+            .end()
     }
 }
