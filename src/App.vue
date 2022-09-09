@@ -25,11 +25,12 @@ body {
         <TopBar/>
     </header>
     <router-view class="container flex-1 px-2 md:px-4 xl:px-20 2xl:px-40" />
-    <footer class="container px-2 md:px-4 xl:px-20 2xl:px-40 pt-8 pb-20 flex justify-between items-center text-gray-400 border-t border-gray-800">
-        <div class="mb-0.5">
+    <footer
+        class="container px-2 md:px-4 xl:px-20 2xl:px-40 pt-8 pb-20 flex flex-col sm:flex-row justify-between items-center text-gray-400 border-t border-gray-800">
+        <div class="mb-2">
             Copyright © {{ new Date().getFullYear() }} <a href="https://github.com/haojen" target="_blank">HAOZHEN MA</a>
         </div>
-        <div class="text-sm">
+        <div class="text-sm mb-2">
             <router-link class="px-2 mx-2" to="/">HOME</router-link>
             <router-link to="/privacy">PRIVACY</router-link>
             <router-link class="px-2 mx-2" to="/privacy">ABOUT ME</router-link>

@@ -30,20 +30,20 @@ main {
         <article class="banner relative flex flex-col h-full">
             <canvas class="absolute bottom-0 right-0" ref="canvasEl" style="width: 640px; height: 480px"></canvas>
             <div class="relative mt-24">
-                <p class="text-4xl text-description text-xl font-semibold">
+                <p class="text-4xl text-xl font-semibold sm:w-5/12">
                     Use Keyboard to Control Browser Navigation, Scroll, Search and More .
                 </p>
                 <section class="mt-10 flex">
                     <a href="itms-apps://itunes.apple.com/app/id1585682577">
-                        <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+                        <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" style="height: 44px">
                     </a>
                     <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
-                        <img class="filter invert" src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+                        <img class="filter invert" src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" style="height: 44px">
                     </a>
                 </section>
                 <section class="mt-10 flex">
-                    <a class="flex border border-gray-600 rounded-lg backdrop-filter backdrop-blur-3xl pl-1.5 pr-2.5 py-1.5" href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-                        <img src="../assets/chrome-icon.svg" style="width: 48px">
+                    <a class="flex items-center border border-gray-600 rounded-lg backdrop-filter backdrop-blur-3xl pl-1.5 pr-2.5 py-1.5" href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+                        <img src="../assets/chrome-icon.svg" style="height: 34px">
                         <div class="flex flex-col justify-center ml-1">
                             <p class="text-xs">Available in the</p>
                             <p class="font-semibold">Chrome Web Store</p>
