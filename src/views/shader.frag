@@ -1,56 +1,122 @@
-float dode(vec3 p,vec3 a,vec3 b)
-{
-    vec4 vert = vec4(0,1,-1,.5+sqrt(1.25));
-    vert /= length(vert.zw);
+#define TMIN 0.1
+#define TMAX 200.
+#define RAYMARCH_TIME 128
+#define PRECISION 0.05
+#define AA 3
+#define PI 3.14159
 
-    float d = abs(dot(p,vert.xyw))-a.x;
-    d = max(d,abs(dot(p,vert.ywx))-a.y);
-    d = max(d,abs(dot(p,vert.wxy))-a.z);
-    d = max(d,abs(dot(p,vert.xzw))-b.x);
-    d = max(d,abs(dot(p,vert.zwx))-b.y);
-    d = max(d,abs(dot(p,vert.wxz))-b.z);
+#define S(v,r) smoothstep( r, r+ 3./iResolution.y, v )
+
+//========SDFunctions========
+float sdSphere(vec3 p, vec3 o, float r){
+    return length(p-o)-r;
+}
+//===============TRANSFORM=================
+mat2 rotate(float a){
+    return mat2(cos(a),sin(a),-sin(a),cos(a));
+}
+float smUni( float d1, float d2, float k ) {
+    float h = clamp( 0.5 + 0.5*(d2-d1)/k, 0.0, 1.0 );
+    return mix( d2, d1, h ) - k*h*(1.0-h);
+}
+
+//===============RENDER===================
+//Scene
+float f(vec3 p){
+    p.zx*=rotate(iTime);
+    p.yz*=rotate(iTime);
+    float k = .7;
+    float d1 = sdSphere(p,vec3(sin(iTime*.5)),1.3);//center sphere
+    float d2 = sdSphere(p,vec3(0,2.*sin(iTime),0.),.5);
+    float d = smUni(d1,d2,k);
+
+    float d3 = sdSphere(p,vec3(sin(iTime+5.),0,2.*sin(iTime+5.)),.9);
+    d= smUni(d,d3,k);
+
+    float d4 = sdSphere(p,vec3(-cos(iTime+.3),cos(iTime+.3),cos(iTime+.3)),.8);
+    d= smUni(d,d4,k);
+
+    float d5 = sdSphere(p,vec3(3.*cos(iTime+.7),0.,.5),.3);
+    d= smUni(d,d5,k);
+
     return d;
 }
-float dist(vec3 p)
-{
-    vec3 o = vec3(.6,1,.7);
-    float d = (dode(p,o.zzz,o.zzz));
-    d = max(d,-dode(p,o.yxx,o.xxx));
-    d = max(d,-dode(p,o.xyx,o.xxx));
-    d = max(d,-dode(p,o.xxy,o.xxx));
-    d = max(d,-dode(p,o.xxx,o.yxx));
-    d = max(d,-dode(p,o.xxx,o.xyx));
-    d = max(d,-dode(p,o.xxx,o.xxy));
-    return d;
-}
-vec4 march(vec3 p,vec3 r)
-{
-    vec4 m = vec4(p+r,1);
-    for(int i = 0;i<77;i++)
-    {
-        float s = dist(m.xyz);
-        m += vec4(r,1)*s;
-
-        if ((s<.001) || (m.w>7.)) return m;
+float rayMarch(in vec3 ro, in vec3 rd) {
+    float t = TMIN;
+    for(int i = 0; i < RAYMARCH_TIME ; i++) {
+        vec3 p = ro + t * rd;
+        float d = f(p);
+        t += d;
+        if(d < PRECISION || t > TMAX)
+        break;
     }
-    return m;
+    return t;
 }
-void mainImage(out vec4 color, in vec2 coord)
-{
-    float s = fract(iTime/4.);
-    s = smoothstep(0.,.8,s);
-    s *= s*(3.-2.*s);
-    float a = s*3.14159+1.2;
-    mat3 t = mat3(1,0,0,0,cos(a),-sin(a),0,sin(a),cos(a));
-    vec2 f = vec2(0);
 
-    for(float xx = -.5;xx<.5;xx+=.25)
-    for(float yy = -.5;yy<.5;yy+=.25)
-    {
-        vec2 u = (coord+vec2(xx,yy)-.5*iResolution.xy)/iResolution.y;
-        u *= (2.-.7*(s-.5)*(s-.5));
-        vec4 m = march(vec3(u,-2.25+(s-.7)*(s-.3))*t,vec3(0,0,1)*t);
-        f += vec2(smoothstep(4.4,2.,m.w/.7),1);
+// https://iquilezles.org/articles/normalsSDF
+vec3 calcNormal(in vec3 p) {
+    const float h = 0.0001;
+    const vec2 k = vec2(1, -1);
+    return normalize(k.xyy * f(p + k.xyy * h) +
+    k.yyx * f(p + k.yyx * h) +
+    k.yxy * f(p + k.yxy * h) +
+    k.xxx * f(p + k.xxx * h));
+}
+
+mat3 setCamera(in vec3 camtar, in vec3 campos, in float camro){
+    vec3 z = normalize(camtar-campos);
+    vec3 cp = vec3(sin(camro),cos(camro),0.);
+    vec3 x = normalize(cross(cp,z));
+    vec3 y = cross(z,x);
+    return mat3(x,y,z);
+}
+vec3 render(vec2 uv){
+    vec3 lightPos = vec3(-5., 5.,-5);//light
+
+    //SET Camera
+    vec3 cam_tar = vec3(-1,3,2);//cam target
+    vec3 cam_pos = cam_tar +vec3(-10,20,15);//cam position
+
+
+    vec3 rd = vec3(uv,9.); //decide view width
+    rd = normalize(setCamera(cam_tar,cam_pos,0.)*rd);//viewing frustum
+
+    float t = rayMarch(cam_pos,rd);//raymarching
+
+    vec3 color = vec3(0.067);//background
+    if(t > TMAX) return color;
+
+    vec3 p = cam_pos + t*rd;
+    vec3 n = calcNormal(p);
+
+    color = n*.5+.5;
+    // fog
+    color *= exp(-0.4);
+
+    return color;
+}
+vec2 getuv(vec2 coord){
+    return (2.*coord-iResolution.xy)/iResolution.y;
+}
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    vec2 uv = (2.*fragCoord-iResolution.xy)/iResolution.y;
+    vec3 color = vec3(0.);
+    #if AA>1
+    for(int m = 0; m < AA; m++) {
+        for(int n = 0; n < AA; n++) {
+            vec2 offset = 2. * (vec2(float(m), float(n)) / float(AA) - .5);
+            vec2 uv = getuv(fragCoord + offset);
+            #else
+            uv = getuv(fragCoord);
+            #endif
+            color += render(uv);
+            #if AA>1
+        }
     }
-    color = vec4(vec3(1,0,.25)*f.x/f.y,1);
+    color /= float(AA*AA);
+    #endif
+
+    color = mix(color,vec3(1),0.);
+    fragColor = vec4(color,1.0);
 }

@@ -3,28 +3,36 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #111;
+}
+
 #app {
     @apply h-screen;
 
     @apply flex;
     @apply flex-col;
     @apply items-center;
+
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
 }
 </style>
 
 <template>
-    <header class="container md:px-4 xl:px-20 2xl:px-40">
+    <header class=" container relative z-10 md:px-4 xl:px-20 2xl:px-40 w-full sticky top-0 backdrop-filter backdrop-blur-3xl" style="background: rgb(16 16 16 / 65%)">
         <TopBar/>
     </header>
-    <router-view class="px-2 container flex-1 md:px-4 xl:px-20 2xl:px-40" />
-    <footer class="flex flex-col justify-center items-center w-full bg-gray-900 text-white text-opacity-90" style="min-height: 100px;">
+    <router-view class="container flex-1 px-2 md:px-4 xl:px-20 2xl:px-40" />
+    <footer class="container px-2 md:px-4 xl:px-20 2xl:px-40 pt-8 pb-20 flex justify-between items-center text-gray-400 border-t border-gray-800">
         <div class="mb-0.5">
-            Copyright © <a href="https://github.com/haojen" target="_blank">Haojen</a> 2022
+            Copyright © {{ new Date().getFullYear() }} <a href="https://github.com/haojen" target="_blank">HAOZHEN MA</a>
         </div>
-        <div class="px-6 text-sm text-center">
-            <a href="https://iconscout.com/illustrations/guy" target="_blank">Guy working at home Illustration </a>
-            <span class="mx-1">by</span>
-            <a href="https://iconscout.com/contributors/iconscout" target="_blank">Iconscout Store</a>
+        <div class="text-sm">
+            <router-link class="px-2 mx-2" to="/">HOME</router-link>
+            <router-link to="/privacy">PRIVACY</router-link>
+            <router-link class="px-2 mx-2" to="/privacy">ABOUT ME</router-link>
         </div>
     </footer>
 </template>

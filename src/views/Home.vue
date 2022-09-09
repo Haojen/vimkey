@@ -1,8 +1,7 @@
 <style lang="scss" scoped>
 main {
     .text-description {
-        max-width: 550px;
-        text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+        max-width: 45%;
     }
 
     @screen sm {
@@ -28,30 +27,74 @@ main {
 
 <template>
     <main class="flex flex-col">
-        <article class="banner relative flex flex-col justify-center">
-            <canvas ref="canvasEl"  style="width: 640px; height: 480px;"></canvas>
-<!--            <h2 class="font-bold text-6xl mb-5">Vimkey</h2>-->
-<!--            <p class="text-description text-xl text-gray-800 font-medium">-->
-<!--                A browser extension, use keyboard control browser jump, scroll, switch tab and more.-->
-<!--            </p>-->
-<!--            <p class="text-description pt-2 text-gray-800 font-mono tracking-tight">Support browser: Chrome, Edge, Safari(macOS & iPadOS)</p>-->
-<!--            <section class="mt-10 flex">-->
-<!--                <a href="itms-apps://itunes.apple.com/app/id1585682577">-->
-<!--                    <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">-->
-<!--                </a>-->
-<!--                <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">-->
-<!--                    <img src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="">-->
-<!--                </a>-->
-<!--            </section>-->
-<!--            <section class="mt-10 flex">-->
-<!--                <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">-->
-<!--                    <img src="../assets/chrome-webstore.svg" class="border bg-white" alt="" style="width: 300px">-->
-<!--                </a>-->
-<!--            </section>-->
+        <article class="banner relative flex flex-col h-full">
+            <canvas class="absolute bottom-0 right-0" ref="canvasEl" style="width: 640px; height: 480px"></canvas>
+            <div class="relative mt-24">
+                <p class="text-4xl text-description text-xl font-semibold">
+                    Use Keyboard to Control Browser Navigation, Scroll, Search and More .
+                </p>
+                <section class="mt-10 flex">
+                    <a href="itms-apps://itunes.apple.com/app/id1585682577">
+                        <img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+                    </a>
+                    <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
+                        <img class="filter invert" src="../assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+                    </a>
+                </section>
+                <section class="mt-10 flex">
+                    <a class="flex border border-gray-600 rounded-lg backdrop-filter backdrop-blur-3xl pl-1.5 pr-2.5 py-1.5" href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+                        <img src="../assets/chrome-webstore.svg" style="width: 48px">
+                        <div class="flex flex-col justify-center ml-1">
+                            <p class="text-xs">Available in the</p>
+                            <p class="font-semibold">Chrome Web Store</p>
+                        </div>
+                    </a>
+                </section>
+            </div>
         </article>
         <article class="features">
-            <h3 class="font-bold text-xl pb-2">Features</h3>
-            <ul class="flex flex-col sm:flex-row text-center">
+            <h3 class="font-bold text-xl mb-8 pb-4 text-4xl border-b border-gray-800">Features</h3>
+            <ul>
+                <li class="flex justify-between mb-4">
+                    <div class="mr-2">
+                        <h3 class="text-xl font-bold">Powerful Feature & Optimized for Mobile Device</h3>
+                        <ul class="mt-2 list-disc pl-4 text-gray-400">
+                            <li>Custom key binding.</li>
+                            <li>Customize filter rules to disable Vimkey.</li>
+                            <li> Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</li>
+                            <li>Support config export & import，cross-platform compatibility. Accessibility friendly.</li>
+                        </ul>
+                    </div>
+                    <img class="hidden sm:inline object-contain" src="../assets/vimkey-f.png" alt="" style="width: 360px">
+                </li>
+                <li class="flex justify-between mb-4">
+                    <div class="mr-2">
+                        <h3 class="text-xl font-bold">Beautiful UI, Easy to Use</h3>
+                        <ul class="mt-2 list-disc pl-4 text-gray-400">
+                            <li>Simple and intuitive user interface.</li>
+                            <li>Friendly new guide and help to help you get started with Vimkey quickly.</li>
+                            <li>Smooth and natural transition animation.</li>
+                        </ul>
+                    </div>
+                    <img class="hidden sm:inline object-contain" src="../assets/vimkey-setting.png" width="360">
+                </li>
+                <li class="flex justify-between mb-4">
+                    <div class="mr-2">
+                        <h3 class="text-xl font-bold">Cross-platform, multi-browser support</h3>
+                        <ul class="mt-2 list-disc pl-4 text-gray-400">
+                            <li>
+                                <span>Support Safari Chrome Edge. Safari (macOS / iPadOS / iOS) </span>
+                                <br>
+                                <i>iOS & iPadOS system requirement: 15.0 or above </i>
+                                <br>
+                                <i>macOS system requirement: macOS 11.0 or above </i>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="hidden sm:inline object-contain" src="../assets/vimkey-browser.png" width="360">
+                </li>
+            </ul>
+            <ul class="flex flex-col sm:flex-row text-center hidden">
                 <li class="p-4 mb-2 w-full overflow-hidden bg-gradient-to-b from-yellow-400 to-yellow-500 text-white flex-1 border-2 border-yellow-400 shadow rounded-xl flex flex-col justify-center items-center ">
                     <div class="bg-gradient-to-b from-yellow-400 to-yellow-500 shadow rounded-2xl p-2 flex justify-center items-center">
                         <svg fill="#fff" width="50" height="50" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="65057"><path d="M817.856928 588.065391c-17.563826 21.303652-58.494145 88.160464-73.638957 135.286725s-42.570203 92.605217-67.969855 146.558145-100.433623 119.54829-192.578783 124.022725-219.90029-10.388406-277.51884-78.914783-56.869101-150.201507-56.639073-197.298087c0.192928-40.811594 0.051942-133.565217 0-157.629217V249.84858a39.646609 39.646609 0 0 1 79.300638 0V532.99942a399.10771 399.10771 0 0 1 45.31571-16.881159V108.922435a45.31571 45.31571 0 0 1 90.624 0V498.643478a462.729275 462.729275 0 0 1 39.646609-1.81055V75.100754a45.31571 45.31571 0 0 1 90.624 0v430.013217c16.465623 3.027478 33.495188 7.056696 50.977391 12.050551V120.208696a45.31571 45.31571 0 0 1 90.624 0v452.222145c20.309333 15.293217 33.984928 26.913391 33.984928 26.913391s38.103188-81.022145 96.293101-118.375884 76.243478-35.090551 101.954783-5.63942-33.443246 91.432812-50.999652 112.736463z" p-id="65058"></path></svg>
@@ -101,10 +144,10 @@ export default defineComponent({
             shadertoyInstance = new ShadertoyTransform({
                 canvas: canvasEl.value!,
                 contextAttributes: {},
-                devicePixelRatio: 1,
-                precision: 'mediump',
+                devicePixelRatio: window.devicePixelRatio,
+                precision: 'lowp',
                 fs: fragmentShaderSource,
-                vs: vertexShaderSource
+                vs: vertexShaderSource,
             })
 
             shadertoyInstance.componentDidMount()

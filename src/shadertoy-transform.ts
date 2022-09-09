@@ -142,7 +142,7 @@ export default class ShadertoyTransform {
     componentDidMount = () => {
         this.initWebGL()
 
-        const { fs, vs, clearColor = [1, 1, 0, 1] } = this.props
+        const { fs, vs, clearColor = [0, 0, 0, 1] } = this.props
         const { gl } = this
 
         if (!gl) return
@@ -158,9 +158,7 @@ export default class ShadertoyTransform {
 
         this.initShaders(this.preProcessShaders(fs || BASIC_FS, vs || BASIC_VS))
         this.initBuffers()
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        this.drawScene()
+        this.drawScene(0)
         // this.addEventListeners()
         this.onResize()
     }
@@ -169,7 +167,7 @@ export default class ShadertoyTransform {
         const { gl } = this
 
         if (gl) {
-            gl.getExtension('WEBGL_lose_context')?.loseContext()
+            gl.getExtension('WEBGL_lose_context')!.loseContext()
 
             gl.useProgram(null)
             gl.deleteProgram(this.shaderProgram)
@@ -184,8 +182,8 @@ export default class ShadertoyTransform {
     initWebGL(): void {
         const { contextAttributes } = this.props
         this.gl = this.canvas.getContext('webgl', contextAttributes)
-        this.gl?.getExtension('OES_standard_derivatives')
-        this.gl?.getExtension('EXT_shader_texture_lod')
+        this.gl!.getExtension('OES_standard_derivatives')
+        this.gl!.getExtension('EXT_shader_texture_lod')
     }
 
     initBuffers(): void {
