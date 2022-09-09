@@ -43,7 +43,7 @@ main {
                 </section>
                 <section class="mt-10 flex">
                     <a class="flex border border-gray-600 rounded-lg backdrop-filter backdrop-blur-3xl pl-1.5 pr-2.5 py-1.5" href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-                        <img src="../assets/chrome-webstore.svg" style="width: 48px">
+                        <img src="../assets/chrome-icon.svg" style="width: 48px">
                         <div class="flex flex-col justify-center ml-1">
                             <p class="text-xs">Available in the</p>
                             <p class="font-semibold">Chrome Web Store</p>
