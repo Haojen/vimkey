@@ -335,7 +335,7 @@ export default class ShadertoyTransform {
         }
     };
 
-    fpsLimit = 30
+    fpsLimit = 60
     previousDelta = new Date().getTime()
     drawScene = (timestamp: number) => {
         this.animFrameId = requestAnimationFrame(this.drawScene)
