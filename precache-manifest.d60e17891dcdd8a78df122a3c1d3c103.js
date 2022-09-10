@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17e863042dbe68aa0d7e",
-    "url": "/vimkey/css/app.20fdea64.css"
+    "revision": "87beb3cfa3273d2f65f4",
+    "url": "/vimkey/css/app.eb136b31.css"
   },
   {
-    "revision": "81b4ec263196d5611b47",
-    "url": "/vimkey/css/chunk-vendors.2f719727.css"
+    "revision": "54fe1b60efa58618c581",
+    "url": "/vimkey/css/chunk-vendors.51ef8616.css"
   },
   {
-    "revision": "a3e5ff72942d91ee5ba9",
+    "revision": "1dbce3de1164ec6b328d",
     "url": "/vimkey/css/support.f867f5c7.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/img/vimkey-setting.c3d4cb81.png"
   },
   {
-    "revision": "8e69810a5ae4acba83226fe5297b779e",
+    "revision": "3c4ed391e19a215ebb8fa2b7d99def3b",
     "url": "/vimkey/index.html"
   },
   {
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/js/about.02013501.js"
   },
   {
-    "revision": "17e863042dbe68aa0d7e",
-    "url": "/vimkey/js/app.44712f9f.js"
+    "revision": "87beb3cfa3273d2f65f4",
+    "url": "/vimkey/js/app.a80ba48a.js"
   },
   {
-    "revision": "81b4ec263196d5611b47",
-    "url": "/vimkey/js/chunk-vendors.7e4ff992.js"
+    "revision": "54fe1b60efa58618c581",
+    "url": "/vimkey/js/chunk-vendors.e3a9287d.js"
   },
   {
-    "revision": "a3e5ff72942d91ee5ba9",
-    "url": "/vimkey/js/support.c917579f.js"
+    "revision": "1dbce3de1164ec6b328d",
+    "url": "/vimkey/js/support.ff647d62.js"
   },
   {
     "revision": "d02b693a65e92214aa42133ce66246db",
