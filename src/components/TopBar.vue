@@ -1,7 +1,7 @@
 <template>
     <main class="hidden sm:flex flex justify-between items-center py-4">
         <router-link to="/" class="flex items-center">
-            <strong class="text-4xl font-serif" style="color: #d00;">Vimkey</strong>
+            <strong class="text-4xl font-serif tracking-tighter" style="color: #d00;">Vimkey</strong>
         </router-link>
         <aside class="font-bold flex items-center">
             <router-link class="mx-2" to="/">Home</router-link>

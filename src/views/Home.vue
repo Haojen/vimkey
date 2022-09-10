@@ -144,7 +144,7 @@ export default defineComponent({
             shadertoyInstance = new ShadertoyTransform({
                 canvas: canvasEl.value!,
                 contextAttributes: {},
-                devicePixelRatio: window.devicePixelRatio,
+                devicePixelRatio: window.devicePixelRatio * 0.8,
                 precision: 'lowp',
                 fs: fragmentShaderSource,
                 vs: vertexShaderSource,
