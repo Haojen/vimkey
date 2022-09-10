@@ -335,7 +335,18 @@ export default class ShadertoyTransform {
         }
     };
 
+    fpsLimit = 30
+    previousDelta = new Date().getTime()
     drawScene = (timestamp: number) => {
+        this.animFrameId = requestAnimationFrame(this.drawScene)
+
+        const now = new Date().getTime()
+        const delta = now - this.previousDelta
+
+        if (this.fpsLimit && delta < 1000 / this.fpsLimit) {
+            return
+        }
+
         const gl = this.gl!
         const { lerp = 1 } = this.props
 
@@ -363,7 +374,7 @@ export default class ShadertoyTransform {
             )
         }
 
-        this.animFrameId = requestAnimationFrame(this.drawScene)
+        this.previousDelta = now
     }
 
     createShader(type: number, shaderCodeAsText: string): WebGLShader {
