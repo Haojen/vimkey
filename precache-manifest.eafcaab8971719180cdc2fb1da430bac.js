@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "978ef3191594beabe74d",
+    "revision": "17e863042dbe68aa0d7e",
     "url": "/vimkey/css/app.20fdea64.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/img/vimkey-setting.c3d4cb81.png"
   },
   {
-    "revision": "8d57be8b36c99fe2f65911eee31473c5",
+    "revision": "8e69810a5ae4acba83226fe5297b779e",
     "url": "/vimkey/index.html"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/js/about.02013501.js"
   },
   {
-    "revision": "978ef3191594beabe74d",
-    "url": "/vimkey/js/app.ce82cd39.js"
+    "revision": "17e863042dbe68aa0d7e",
+    "url": "/vimkey/js/app.44712f9f.js"
   },
   {
     "revision": "81b4ec263196d5611b47",
