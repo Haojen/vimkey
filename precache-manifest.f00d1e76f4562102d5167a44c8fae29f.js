@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf03c132df0a4eccbbb9",
-    "url": "/vimkey/css/app.abaab4d4.css"
+    "revision": "ae5ff33917e45b1e9f06",
+    "url": "/vimkey/css/app.7e056ce8.css"
   },
   {
-    "revision": "78e2ac5066f7b93658f4",
-    "url": "/vimkey/css/chunk-vendors.1d40acb6.css"
+    "revision": "6e4f1bae930724f04787",
+    "url": "/vimkey/css/chunk-vendors.081f29ec.css"
   },
   {
     "revision": "e766d29ada9c9967b344",
@@ -18,6 +18,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b36bcf724bc71f295292ea1fbf066aa1",
     "url": "/vimkey/img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.b36bcf72.svg"
+  },
+  {
+    "revision": "4a5d18b12944492e7a8c0a132a776857",
+    "url": "/vimkey/img/background.4a5d18b1.jpg"
   },
   {
     "revision": "2f6343cabbb80c412ea682bf30393491",
@@ -36,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/img/vimkey-setting.c3d4cb81.png"
   },
   {
-    "revision": "7c33d8f9684b650923f99b4c7d93bea9",
+    "revision": "b0aede0ddda232d968c6e12a8a413e28",
     "url": "/vimkey/index.html"
   },
   {
@@ -44,11 +48,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/js/about.02013501.js"
   },
   {
-    "revision": "bf03c132df0a4eccbbb9",
-    "url": "/vimkey/js/app.b99762fd.js"
+    "revision": "ae5ff33917e45b1e9f06",
+    "url": "/vimkey/js/app.192aa8bd.js"
   },
   {
-    "revision": "78e2ac5066f7b93658f4",
+    "revision": "6e4f1bae930724f04787",
     "url": "/vimkey/js/chunk-vendors.e3a9287d.js"
   },
   {
