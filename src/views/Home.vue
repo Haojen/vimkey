@@ -27,8 +27,9 @@ main {
 
 <template>
     <main class="flex flex-col">
-        <article class="banner relative flex flex-col h-full">
+        <article class="banner relative flex flex-col h-full overflow-hidden">
             <canvas class="absolute bottom-0 right-0 hidden sm:inline" ref="canvasEl" style="width: 640px; height: 480px; background: transparent"></canvas>
+            <img src="../assets/background.jpg" class="sm:hidden absolute -bottom-1/4 right-0 object-contain" style="width: 640px; height: 480px;">
             <div class="relative mt-24">
                 <p class="text-4xl text-xl font-semibold sm:w-5/12">
                     Use Keyboard to Control Browser Navigation, Scroll, Search and More .

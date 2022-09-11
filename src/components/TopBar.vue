@@ -22,7 +22,6 @@
         <article class="absolute left-0 w-full bg-black flex flex-col p-2.5" style="top: 100%" v-if="onToggleMobileMenu">
             <router-link class="py-2 " to="/" @click="onToggleMobileMenu = false">Home</router-link>
             <router-link class="py-2" to="/support" @click="onToggleMobileMenu = false">Document</router-link>
-            <router-link class="py-2" to="/privacy" @click="onToggleMobileMenu = false">Changelog</router-link>
             <a class="py-2" href="https://github.com/Haojen/vimkey" target="_blank" @click="onToggleMobileMenu = false">
                 Github
             </a>
