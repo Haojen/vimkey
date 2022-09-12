@@ -128,9 +128,9 @@ main {
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
-import fragmentShaderSource from './shader.frag'
 import vertexShaderSource from './shader.vert'
+import fragmentShaderSource from './shader.frag'
+import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
 
 import ShadertoyTransform from '../shadertoy-transform'
 
