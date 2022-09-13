@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-   <img src="src/assets/logo.png" width="170">
+   <img src="public/assets/logo.png" width="170">
 </div>
 <h2 align="center">
   Vimkey
@@ -15,16 +15,16 @@
 <br>
 <div align="center">
 <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-    <img src="src/assets/chrome-webstore.svg" width="210">
+    <img src="public/assets/chrome-webstore.svg" width="210">
 </a>
 </div>
 
 <div align="center">
 <a href="https://itunes.apple.com/app/id1585682577">
-    <img src="src/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
+    <img src="public/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
 </a>
 <a href="https://itunes.apple.com/app/id1585682577" class="ml-6">
-    <img src="src/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
+    <img src="public/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
 </a>
 </div>
 
@@ -33,8 +33,8 @@
 
 <div>
     <picture>
-        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-f.png" width="320">
+        <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
+        <img align="right" src="public/assets/vimkey-f.png" width="320">
     </picture>
     <h3>功能丰富，专为 iPad 等移动设备优化</h3>
     <ul>
@@ -49,8 +49,8 @@
 
 <div>
     <picture>
-        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-setting.png" width="320">
+        <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
+        <img align="right" src="public/assets/vimkey-setting.png" width="320">
     </picture>
     <h3>界面美观，使用简单。</h3>
     <ul>
@@ -63,8 +63,8 @@
 
 <div>
     <picture>
-        <source media="(max-width: 640px)" srcset="src/assets/logo.png" width="1">
-        <img align="right" src="src/assets/vimkey-browser.png" width="320">
+        <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
+        <img align="right" src="public/assets/vimkey-browser.png" width="320">
     </picture>
     <h3>跨平台、支持多个浏览器</h3>
     <p align="left">
@@ -138,9 +138,10 @@ m   静音/取消
 Esc 取消
 ```
 
-## 支持 & 帮助
+[//]: # (## 支持 & 帮助)
 
-请访问官网支持文档：https://haojen.github.io/vimkey/#/support
+[//]: # ()
+[//]: # (请访问官网支持文档：https://haojen.github.io/vimkey/#/support)
 
 ## 隐私政策
 当启用 Vimkey 时，您会被告知该扩展会访问敏感信息，这个权限是运行所必要的。Vimkey **从不收集、存储或传输任何信息**，它完全在你的设备上本地运行。

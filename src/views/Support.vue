@@ -7,14 +7,14 @@
 </style>
 <template>
   <main class="flex-1">
-      <VueMarkdown class="markdown " :source="readme" :html="true"/>
+      <VueMarkdown class="markdown p-2" :source="readme" :html="true"/>
   </main>
 </template>
 
 <script lang="js"> // Because vue3-markdown-it is not support TS yet, so we only can use js lang
 import { defineComponent } from 'vue'
+import readme from '../../DOCUMENT.md'
 import VueMarkdown from 'vue3-markdown-it'
-import readme from '../../README.md'
 
 /*
 * 1。解释个别网站按键冲突的问题
