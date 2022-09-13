@@ -1,9 +1,11 @@
 ## Q & A
 
+Make sure you have updated to latest Vimkey version.
+
 ### Custom Disable Rule not Work
 
-1. try reset Disable settings or All Vimkey settings
-2. reinstall Vimkey
+- Solution 1: try reset Disable settings or All Vimkey settings
+- Solution 2: reinstall Vimkey
 
 ### If you have other question or advices
 
