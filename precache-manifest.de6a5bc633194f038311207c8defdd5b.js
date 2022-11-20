@@ -16,6 +16,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
   },
   {
+    "revision": "d5189ae78664842741890ddf5780df5e",
+    "url": "/vimkey/assets/Vimkey-macOS-store-f.png"
+  },
+  {
+    "revision": "1c79c7bd0e4580f43e226addf486964d",
+    "url": "/vimkey/assets/Vimkey-macOS-store-grid.png"
+  },
+  {
+    "revision": "3f774c6fc3a40d90dd7f8678e7eb39ee",
+    "url": "/vimkey/assets/Vimkey-macOS-store-search&open.png"
+  },
+  {
+    "revision": "e739ca71484c8fb2cc3c2512bd8cd910",
+    "url": "/vimkey/assets/Vimkey-macOS-store-setting.png"
+  },
+  {
     "revision": "4a5d18b12944492e7a8c0a132a776857",
     "url": "/vimkey/assets/background.jpg"
   },
