@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/assets/guy-working-at-home-2127164-0.svg"
   },
   {
+    "revision": "f4f123b54ebda226f3cfec2c5c77fbe6",
+    "url": "/vimkey/assets/logo-256.png"
+  },
+  {
     "revision": "227d957ca7212cedea6c678272878b63",
     "url": "/vimkey/assets/logo.png"
   },
