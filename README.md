@@ -36,7 +36,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-f.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-f.png" width="320">
     </picture>
     <h3>Powerful Feature & Optimized for Mobile Device</h3>
     <ul>
@@ -50,10 +50,11 @@
 </div>
 
 
+
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-setting.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-search&open.png" width="320">
     </picture>
     <h3>Beautiful UI, Easy to Use</h3>
     <ul>
@@ -67,7 +68,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-browser.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-grid.png" width="320">
     </picture>
     <h3>Cross-platform, multi-browser support</h3>
     <p align="left">
