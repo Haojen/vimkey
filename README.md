@@ -6,7 +6,7 @@
 <h2 align="center">
   <strong>Vimkey</strong>
 </h2> 
-<h3 align="center">
+<h4 align="center">
     Use the Keyboard to control the browser, reducing dependence on the Mouse & Trackpad.
 </h3>
 
