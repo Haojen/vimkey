@@ -6,9 +6,9 @@
 <h2 align="center">
   <strong>Vimkey</strong>
 </h2> 
-<p align="center">
-  Use keyboard control browser jumps, scrolling, switching tabs and more. support Safari, Chrome, Edge.
-</p>
+<h3 align="center">
+    Use the Keyboard to control the browser, reducing dependence on the Mouse & Trackpad.
+</h3>
 
 <p align="center">
   <span>English</span> | <a href="/README-zh.md">简体中文</a>
@@ -38,12 +38,13 @@
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
         <img align="right" src="public/assets/Vimkey-macOS-store-f.png" width="320">
     </picture>
-    <h3>Powerful Feature & Optimized for Mobile Device</h3>
+    <h3>Powerful Feature</h3>
     <ul>
+        <li>Use the keyboard trigger click button or open a link</li>
         <li>Custom key binding.</li>
-        <li>Customize filter rules to disable Vimkey.</li>
         <li>Smooth scrolling optimized for 120Mhz/ProMotion high rate screen.</li>
-        <li>Support config export & import，cross-platform compatibility.</li>
+        <li>Support config export & import</li>
+        <li>Customize filter rules to disable Vimkey.</li>
         <li>Accessibility friendly.</li>
     </ul>
     <br clear="both"/>
@@ -61,6 +62,7 @@
         <li>Simple and intuitive user interface.</li>
         <li>Friendly new guide and help to help you get started with Vimkey quickly.</li>
         <li>Smooth and natural transition animation.</li>
+        <li>Support Light / Dark theme</li>
     </ul>
     <br clear="both"/>
 </div>
