@@ -26,12 +26,13 @@ main {
 </style>
 
 <template>
-    <main class="flex flex-col">
-        <article class="banner relative flex flex-col h-full overflow-hidden">
-            <canvas class="absolute bottom-0 right-0 hidden sm:inline" ref="canvasEl" style="width: 640px; height: 480px; background: transparent"></canvas>
-            <img src="../../public/assets/background.jpg" class="sm:hidden absolute -bottom-1/4 right-0 object-contain" style="width: 640px; height: 480px;">
-            <div class="relative mt-24">
-                <p class="text-4xl text-xl font-semibold sm:w-5/12">
+    <main class="flex flex-col relative">
+        <img class="absolute left-0 top-0 z-0 w-full filter blur-3xl border border-red-500" src="../../public/assets/background-dark.jpg" alt="">
+        <article class="flex flex-col justify-center items-center p-4 relative">
+            <div class="relative z-10 flex flex-col justify-center items-center">
+                <img src="../../public/assets/logo-256.png" alt="" style="width: 128px; margin-top: 12%;">
+                <h2 class="text-4xl font-semibold my-2">Vimkey</h2>
+                <p class="text-2xl text-xl sm:w-8/12 text-center text-gray-300">
                     Use Keyboard to Control Browser Navigation, Scroll, Search and More .
                 </p>
                 <section class="mt-10 flex">
@@ -52,6 +53,9 @@ main {
                     </a>
                 </section>
             </div>
+        </article>
+        <article class="relative z-10 my-4 p-10">
+            <img src="../../public/assets/Vimkey-macOS-store-f.png" alt="" class="rounded-lg">
         </article>
         <article class="features">
             <h3 class="font-bold text-xl mb-8 pb-4 text-4xl border-b border-gray-800">Features</h3>
@@ -128,39 +132,31 @@ main {
 </template>
 
 <script lang="ts">
-import vertexShaderSource from './shader.vert'
-import fragmentShaderSource from './shader.frag'
-import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
+import { defineComponent } from 'vue'
 
-import ShadertoyTransform from '../shadertoy-transform'
+export default defineComponent({ name: 'Home' })
 
-export default defineComponent({
-    name: 'Home',
-    setup() {
-        const canvasEl = ref<HTMLCanvasElement>()
-
-        let shadertoyInstance: ShadertoyTransform
-
-        onMounted(() => {
-            shadertoyInstance = new ShadertoyTransform({
-                canvas: canvasEl.value!,
-                contextAttributes: {},
-                devicePixelRatio: window.devicePixelRatio * 0.8,
-                precision: 'lowp',
-                fs: fragmentShaderSource,
-                vs: vertexShaderSource,
-            })
-
-            shadertoyInstance.componentDidMount()
-        })
-
-        onUnmounted(() => {
-            shadertoyInstance.componentWillUnmount()
-        })
-
-        return {
-            canvasEl
-        }
-    }
-})
+/**
+ *  Remove Shader effect.
+ *  const canvasEl = ref<HTMLCanvasElement>()
+ *
+ *         let shadertoyInstance: ShadertoyTransform
+ *
+ *         onMounted(() => {
+ *             shadertoyInstance = new ShadertoyTransform({
+ *                 canvas: canvasEl.value!,
+ *                 contextAttributes: {},
+ *                 devicePixelRatio: window.devicePixelRatio * 0.8,
+ *                 precision: 'lowp',
+ *                 fs: fragmentShaderSource,
+ *                 vs: vertexShaderSource,
+ *             })
+ *
+ *             shadertoyInstance.componentDidMount()
+ *         })
+ *
+ *         onUnmounted(() => {
+ *             shadertoyInstance.componentWillUnmount()
+ *         })
+ */
 </script>
