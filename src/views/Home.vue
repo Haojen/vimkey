@@ -29,30 +29,35 @@ main {
     <main class="flex flex-col relative">
         <img class="absolute left-0 top-0 z-0 w-full filter blur-3xl border border-red-500" src="../../public/assets/background-dark.jpg" alt="">
         <article class="flex flex-col justify-center items-center p-4 relative">
-            <div class="relative z-10 flex flex-col justify-center items-center">
-                <img src="../../public/assets/logo-256.png" alt="" style="width: 128px; margin-top: 12%;">
-                <h2 class="text-4xl font-semibold my-2">Vimkey</h2>
-                <p class="text-2xl text-xl sm:w-8/12 text-center text-gray-300">
-                    Use Keyboard to Control Browser Navigation, Scroll, Search and More .
-                </p>
-                <section class="mt-10 flex">
+            <img src="../../public/assets/logo-256.png" alt="" style="width: 120px; margin-top: 12%;">
+            <h2 class="text-3xl font-bold my-2">Vimkey</h2>
+            <p class="text-2xl sm:w-8/12 text-center mt-3 mb-4 " style="text-shadow: 0 0 15px black">
+                <span class="font-bold ">Use the keyboard to control browser, navigation, scroll, open new page, trigger click button etc.</span>
+
+                <span class="text-gray-300 font-semibold"> reduce your reliance on the mouse & trackpad.</span>
+            </p>
+            <section class="mt-10 text-center">
+                <div class="flex justify-center items-center border border-gray-700 rounded-lg py-2 px-2.5 bg-gray-900 shadow-lg">
                     <a href="itms-apps://itunes.apple.com/app/id1585682577">
+                        <img src="../../public/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" style="height: 44px">
+                    </a>
+                    <a class="mx-3"  href="itms-apps://itunes.apple.com/app/id1585682577">
                         <img src="../../public/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" style="height: 44px">
                     </a>
-                    <a href="itms-apps://itunes.apple.com/app/id1585682577" class="ml-6">
-                        <img class="filter invert" src="../../public/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" style="height: 44px">
-                    </a>
-                </section>
-                <section class="mt-10 flex">
-                    <a class="flex items-center border border-gray-600 rounded-lg backdrop-filter backdrop-blur-3xl pl-1.5 pr-2.5 py-1.5" href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-                        <img src="../../public/assets/chrome-icon.svg" style="height: 34px">
+                    <a
+                        class="flex items-center border border-gray-400 rounded-lg backdrop-filter backdrop-blur-3xl px-2 py-1 bg-black"
+                        href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+                        <img src="../../public/assets/chrome-icon.svg" style="height: 32px">
                         <div class="flex flex-col justify-center ml-1">
-                            <p class="text-xs">Available in the</p>
+                            <p class="text-xs -mb-1">Available in the</p>
                             <p class="font-semibold">Chrome Web Store</p>
                         </div>
                     </a>
-                </section>
-            </div>
+                </div>
+                <footer class="text-gray-400">
+                    More browser support coming soon.
+                </footer>
+            </section>
         </article>
         <article class="relative z-10 my-4 p-10">
             <img src="../../public/assets/Vimkey-macOS-store-f.png" alt="" class="rounded-lg">
