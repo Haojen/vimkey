@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "45c71392c50c2305296e158ea98d2311",
+    "url": "/vimkey/assets/BuyMeCoffeeQRCode.png"
+  },
+  {
     "revision": "2928664fe1fc6aca88583a6f606d60ba",
     "url": "/vimkey/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
   },
