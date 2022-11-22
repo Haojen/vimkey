@@ -50,8 +50,6 @@
     <br clear="both"/>
 </div>
 
-
-
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
@@ -160,5 +158,8 @@ Vimium and Vimari provided me with a lot of inspiration and reference
 As an indie developer, this is my only source of income, which is why your support means so much to me, and it's a great encourage.
 
 Star, share, comment, feedback, buy me coffee, etc.
+
+## Buy me coffee ☕️
+<img src="public/assets/BuyMeCoffeeQRCode.png" width="300">
 
 Copyright © HAOZHEN MA 2022

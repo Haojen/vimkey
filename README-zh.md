@@ -34,12 +34,12 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-f.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-f.png" width="320">
     </picture>
-    <h3>功能丰富，专为 iPad 等移动设备优化</h3>
+    <h3>功能丰富</h3>
     <ul>
+        <li>使用键盘点击按钮或者打开链接</li>
         <li>自定义按键绑定，按需定义。</li>
-        <li>自定过滤规则，根据需要对页面或域名过滤禁用。</li>
         <li>为 120Mhz / ProMotion 高刷屏优化的平滑滚动。</li>
         <li>支持导入导出，多平台配置兼容。</li>
         <li>无障碍友好</li>
@@ -50,7 +50,7 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-setting.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-search&open.png" width="320">
     </picture>
     <h3>界面美观，使用简单。</h3>
     <ul>
@@ -64,16 +64,16 @@
 <div>
     <picture>
         <source media="(max-width: 640px)" srcset="public/assets/logo.png" width="1">
-        <img align="right" src="public/assets/vimkey-browser.png" width="320">
+        <img align="right" src="public/assets/Vimkey-macOS-store-grid.png" width="320">
     </picture>
     <h3>跨平台、支持多个浏览器</h3>
     <p align="left">
         <span>支持 Safari Chrome Edge 等浏览器，Safari 支持 macOS / iPadOS / iOS </span>
         <br>
         <br>
-        <i>iOS & iPadOS 系统版本要求 15.0 或更高</i>
+        <i>iOS & iPadOS 系统版本要求 15.0+</i>
         <br>
-        <i>macOS 系统版本要求: macOS 11.0 或更高</i>
+        <i>macOS 系统版本要求: macOS 11.0+</i>
     </p>
     <br clear="both"/>
 </div>
@@ -156,5 +156,8 @@ Vimium and Vimari 提供了很多灵感和参考。
 
 我是一个独立开发者，这是我唯一的收入来源，正因如此任何形式的支持对我都十分重要（加星、分享、评论、反馈、请我喝杯咖啡等）
 对我是莫大的认可与激励，让我有更多的动力继续打磨、创造出更好的产品。
+
+## 请我喝杯饮料 🥤️
+<img src="public/assets/BuyMeCoffeeQRCode.png" width="300">
 
 Copyright © HAOZHEN MA 2022
