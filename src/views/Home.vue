@@ -1,17 +1,6 @@
 <style lang="scss" scoped>
 main {
-    .text-description {
-        max-width: 45%;
-    }
-
-    @screen sm {
-        //.banner {
-        //
-        //    @apply py-24;
-        //}
-    }
-
-    .features {
+    .introduce {
         @apply my-12;
 
         text-align: center;
@@ -75,13 +64,12 @@ main {
                 </footer>
             </section>
         </article>
-        <article class="relative z-10 my-4 p-6">
-            <img src="../../public/assets/Vimkey-macOS-store-f.png" alt="" class="rounded-3xl">
+        <article class="relative z-10 my-4 p-2 sm:p-10">
+            <img src="../../public/assets/Vimkey-macOS-store-f.png" alt="" class="relative rounded-3xl shadow-lg">
         </article>
-        <article class="features">
+        <article class="introduce">
             <h3 class="font-bold text-xl mb-8 pb-4 text-3xl border-b border-gray-800 text-center">Introduce</h3>
             <ul class="flex justify-center items-center flex-col lg:flex-row lg:items-stretch">
-
                 <li class="flex flex-1 flex-col justify-between items-center bg-blue-500 py-4 px-2">
                     <div>
                         <h3 class="text-xl font-bold">Features</h3>
