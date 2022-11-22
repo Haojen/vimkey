@@ -8,7 +8,7 @@
 </style>
 <template>
   <main class="flex-1">
-      <VueMarkdown class="markdown p-2 mt-20" :source="readme" :html="true"/>
+      <VueMarkdown class="markdown p-4 mt-20" :source="readme" :html="true"/>
   </main>
 </template>
 

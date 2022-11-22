@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-col justify-center text-center">
+    <main class="flex flex-col justify-center text-center px-4">
         <div class="inline-block mx-auto relative">
             <img src="../../public/assets/logo-256.png" alt="" style="width: 100px">
             <i class="bg-gradient-to-b from-yellow-400 to-yellow-500 shadow rounded-2xl p-2 flex justify-center items-center absolute -right-3 -bottom-2"
