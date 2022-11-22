@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/assets/background-dark.jpg"
   },
   {
-    "revision": "4a5d18b12944492e7a8c0a132a776857",
-    "url": "/vimkey/assets/background.jpg"
-  },
-  {
     "revision": "2f6343cabbb80c412ea682bf30393491",
     "url": "/vimkey/assets/chrome-icon.svg"
   },
@@ -76,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/assets/logo.png"
   },
   {
-    "revision": "d45e14cdca11b373d2aeccdf98d6de1e",
-    "url": "/vimkey/assets/vimkey-browser.png"
+    "revision": "86a60818723f05b85ae86154af08a946",
+    "url": "/vimkey/assets/toolbar-icon-32.png"
   },
   {
     "revision": "4569f28f6cae6f1c129766d51abd77d4",
@@ -136,7 +132,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vimkey/img/logo-256.f4f123b5.png"
   },
   {
-    "revision": "a17b508d2f18e495e9296b0b95271cf1",
+    "revision": "5eaffca1cf5c8711c3fa4ccc8841d284",
     "url": "/vimkey/index.html"
   },
   {
