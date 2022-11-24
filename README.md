@@ -17,17 +17,15 @@
 <br>
 
 <p align="center">
-    <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
-        <img src="public/assets/chrome-webstore.svg" width="210">
-    </a>
+    <a href="https://www.producthunt.com/posts/vimkey?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vimkey" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=368693&theme=light" alt="Vimkey - Use&#0032;the&#0032;keyboard&#0032;control&#0032;browser | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </p>
 
 <p align="center">
-    <a href="https://itunes.apple.com/app/id1585682577">
-        <img src="public/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
+    <a href="https://chrome.google.com/webstore/detail/vimkey/eeeandejdamjifbgmmmmonggidbccnnj">
+        <img src="public/assets/chrome-web-store.png" height="50" style="margin-right: 15px">
     </a>
     <a href="https://itunes.apple.com/app/id1585682577">
-        <img src="public/assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" width="184" style="margin-left: 4px;">
+        <img src="public/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="140">
     </a>
 </p>
 

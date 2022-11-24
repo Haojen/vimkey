@@ -62,6 +62,9 @@ main {
                 <footer class="text-gray-400 mt-1.5">
                     More browser support coming soon..
                 </footer>
+                <footer class="flex justify-center mt-4">
+                    <a href="https://www.producthunt.com/posts/vimkey?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vimkey" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=368693&theme=light" alt="Vimkey - Use&#0032;the&#0032;keyboard&#0032;control&#0032;browser | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+                </footer>
             </section>
         </article>
         <article class="relative z-10 my-4 p-2 sm:p-10">
